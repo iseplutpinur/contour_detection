@@ -35,15 +35,15 @@ Kita mempunyai satu aset gambar dibawah:
 
 ![Jack-Sparrow](./Jack-Sparrow.jpg)
 
-
 **Koding:**
+
+###### 1. Skala Abu-Abu
+
 - Pertama Kita akan mengimport OpenCv dengan cara 
 
 ```python
 import cv2 as cv
 ```
-
-
 
 - Kemudian kita akan menambahkan file gambar menggunakan fungsi ```cv.imread()``` yang akan ditampung kedalam variable img
 
@@ -77,13 +77,34 @@ cv.imshow('Gray', gray)
 cv.waitKey(0)
 ```
 
+**Hasilnya:**
+
+![image-20220105043054029](screenshot\image-20220105043054029.png)
+
+Dan
+
+![image-20220105043215823](screenshot\image-20220105043215823.png)
 
 
 
 
 
 
+###### 2. Meliha Tepi Pada Objek
 
+Untuk bisa melihat tepi pada objek disini menggunakan fungsi ```Canny``` dengan dua argumen ambang batas yaitu 125 dan 175 dan namanya tepi objek sehingga sintaksnya seperti dibawah:
+```python
+import cv2 as cv
 
+img = cv.imread('./Jack-Sparrow.jpg')
 
+canny = cv.Canny(img, 125, 175)
+cv.imshow('Tepi Objek', canny)
+
+cv.waitKey(0)
+```
+
+**Hasilnya:**
+
+![image-20220105044600651](screenshot\image-20220105044600651.png)
 

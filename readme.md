@@ -106,5 +106,5 @@ cv.waitKey(0)
 
 **Hasilnya:**
 
-<img src=".\screenshot\image-20220105044600651.png>
+<img src=".\screenshot\image-20220105044600651.png">
 

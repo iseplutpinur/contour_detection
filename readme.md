@@ -33,7 +33,7 @@ Dalam pandangan matematis contour tidak sama dengan tepi karena dalam sudut pand
 
 Kita mempunyai satu aset gambar dibawah:
 
-![Jack-Sparrow](./Jack-Sparrow.jpg)
+<img src="./Jack-Sparrow.jpg">
 
 **Koding:**
 
@@ -83,7 +83,7 @@ cv.waitKey(0)
 
 Dan
 
-![image-20220105043215823](.\screenshot\image-20220105043215823.png)
+<img src=".\screenshot\image-20220105043215823.png">
 
 
 
@@ -106,5 +106,5 @@ cv.waitKey(0)
 
 **Hasilnya:**
 
-![image-20220105044600651](.\screenshot\image-20220105044600651.png)
+<img src=".\screenshot\image-20220105044600651.png>
 

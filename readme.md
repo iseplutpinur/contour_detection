@@ -79,7 +79,7 @@ cv.waitKey(0)
 
 **Hasilnya:**
 
-![image-20220105043054029](.\screenshot\image-20220105043054029.png)
+<img src=".\screenshot\image-20220105043054029.png">
 
 Dan
 

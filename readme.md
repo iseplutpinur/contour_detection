@@ -79,11 +79,11 @@ cv.waitKey(0)
 
 **Hasilnya:**
 
-![image-20220105043054029](screenshot\image-20220105043054029.png)
+![image-20220105043054029](.\screenshot\image-20220105043054029.png)
 
 Dan
 
-![image-20220105043215823](screenshot\image-20220105043215823.png)
+![image-20220105043215823](.\screenshot\image-20220105043215823.png)
 
 
 
@@ -106,5 +106,5 @@ cv.waitKey(0)
 
 **Hasilnya:**
 
-![image-20220105044600651](screenshot\image-20220105044600651.png)
+![image-20220105044600651](.\screenshot\image-20220105044600651.png)
 

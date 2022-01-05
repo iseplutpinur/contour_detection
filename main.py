@@ -23,6 +23,7 @@ cv.imshow('Jack-Sparrow', img)
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Gray', gray)
 
+# 2. Membuat Canny
 canny = cv.Canny(img, 125, 175)
 cv.imshow('Tepi Objek', canny)
 
